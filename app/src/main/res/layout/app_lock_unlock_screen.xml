@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:text="Enter your password to textfield bellow"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editText_enterPass"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:text="Unlock App"
+            android:id="@+id/button_unlock"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.41"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+</LinearLayout>

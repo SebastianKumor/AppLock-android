@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_about"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_bar_unlock"
+          android:title="Unlock App"
+          app:showAsAction="never"
+        />
+</menu>
